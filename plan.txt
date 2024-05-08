@@ -1,0 +1,25 @@
+In this exercise, you will be planning your strategy for building an OOP-based command-line application with Ruby in order to practice and demonstrate your grasp of fundamental OOP.
+
+Exercise
+Description
+Create a 2-Player math game where players take turns to answer simple math addition problems. A new math question is generated for each turn by picking two numbers between 1 and 20. The player whose turn it is is prompted the question and must answer correctly or lose a life.
+
+Tasks
+Task 1: Extract Nouns for Classes
+
+  #Player
+  #Game
+  #Question
+
+
+Task 2: Write their roles
+What is the role for each class?
+ #Player: Represents a player in the game and keeps track of their score and lives.
+
+ #Game: Manages the game flow, including generating math questions, tracking the current player, and determining the winner.
+ 
+ #Question: Represents a math question with two random numbers and checks if the player's answer is correct.
+
+
+Player class tracks each player's lives and score. Game class manages game flow, generates questions, and checks answers. Question class creates math problems and validates player responses.
+
